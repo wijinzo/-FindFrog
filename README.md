@@ -45,13 +45,3 @@ README.md               # 遊戲介紹
 ```
 
 若想更新角色或物品圖片，可用同名 PNG 覆蓋 `images/` 中的檔案。替換不同長寬比的圖片時，可能需要調整遊戲裡的物件尺寸及位置。
-
-## 單一 HTML 作業版本（選用）
-
-若需要繳交**僅包含一個 HTML 檔案**的版本，在專案資料夾執行：
-
-```bash
-python build_single_html.py
-```
-
-程式會把 `images/` 中的素材轉為 Data URI，產生 `單檔交作業版.html`。**放在 GitHub Pages 遊玩不需要執行這個 Python 腳本**。
